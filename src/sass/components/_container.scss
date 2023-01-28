@@ -1,0 +1,23 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // @media screen   and (max-width:  {
+        
+    // }
+    @media  screen and (min-width:479.98px) {
+        width: 480;
+    }
+
+         @media screen and (min-width:767.98px) {
+             width: 768;
+             background-color: aqua;
+         }
+
+                  @media screen and (min-width:1139.98px) {
+                      width: 1140px;
+                      background-color: blueviolet;
+                  }
+}
