@@ -1,17 +1,15 @@
 .mobile {
+  position: relative;
   background-color: #343a40;
   height: 70px;
   padding: 10px;
   width: 100%;
 
-  @media screen and (min-width: 479.98px) {
+  @media screen and (min-width: 768.98px) {
     display: none;
   }
 
-    &::before {
-      margin-right: 16px;
-      background-image: ("../../assets/images/pngwing.com.png");
-    }
+   
 }
 
 .navWrapper {
@@ -24,12 +22,17 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-decoration: none;
 
   gap: 20px;
   background-color: #343a40;
   border-top: 2px solid black;
   
 }
+
+ .logo {
+   width: 100px;
+ }
 
 .li {
   text-decoration: none;
@@ -49,5 +52,6 @@
 .burger {
   position: absolute;
   right: 5%;
+  top: 24%;
   cursor: pointer;
 }

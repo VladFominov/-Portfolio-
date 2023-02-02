@@ -1,8 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import { CgMenuRound, CgCloseO } from "react-icons/cg";
-import { NavLink } from "react-router-dom";
+import {  Link,NavLink } from "react-router-dom";
 import styles from "./mobile.module.scss";
+import image from "../../assets/images/flag.png";
+
+
 
 const setActive = ({ isActive }) => isActive ? styles.active : ''
 
@@ -28,10 +31,14 @@ const NavBarMovile = () => {
 
   return (
     <nav className={styles.mobile}>
+      <Link to="/" className={styles.logo}>
+              <img src={image} alt="flag" width= "100" />
+            </Link>
       {open ? closeIcon : burgerIcon}
 
       {open && (
         <div className={styles.navWrapper}>
+          
           <NavLink
             to="/"
             className={setActive}

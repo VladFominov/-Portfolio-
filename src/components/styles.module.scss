@@ -1,7 +1,7 @@
 @import-normalize;
 
 .header{
-    background-color: cornflowerblue;
+    background-color: #343a40;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,19 +13,43 @@
             background-image: ("../../assets/images/pngwing.com.png");
         }
 
-    @media screen and (max-width: 479.98px) {
+    @media screen and (max-width: 767.98px) {
             display: none;
         }
 
-@media screen and (min-width:479.98px) {
+@media screen and (min-width:768px) {
   
-        width: 480;
+        width: 768;
     }
     
 }
 .active {
-    background-color: coral;
+    background-color: #ffc107;
         border-radius: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 470px){
+        width: 470px;
+    }
+
+        // @media (max-width: 767.98px) {
+        // width: 768px;
+        // }
+
+
+        // @media (max-width: 1199.98px) {
+        // width: 1200px;
+        // }
 }
 
 

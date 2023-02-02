@@ -5,7 +5,7 @@ import AppBar from "./components/AppBar";
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
       <AppBar />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
@@ -13,7 +13,7 @@ function App() {
           <Route path="/contacts" element={<ContactsPage />}></Route>
           <Route path="*" element={<NotFoundPage />}></Route>
         </Routes>
-    </main>
+    </div>
   );
 }
 

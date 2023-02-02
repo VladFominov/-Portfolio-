@@ -1,0 +1,15 @@
+.section {
+    border: 2px solid brown;
+    padding-top: 10px;
+}
+
+.skillsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skillsItems{
+    width: 100px;
+}

@@ -1,9 +1,17 @@
 @import-normalize;
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 0;
+  background-color: #1F2833;
+  color: #FFFFFF;
 }
 h1,
 h2,
@@ -18,9 +26,21 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
+
+li {
+  text-decoration: none;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+
