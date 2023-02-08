@@ -23,9 +23,10 @@ const ExperienceSection = () => {
                       src={image}
                       alt="appimage"
                       width="200px"
+                      height="106px"
                     />
-                    <p>{discription}</p>
-                    <p>{tags}</p>
+                    <p className={styles.expDiscription}>{discription}</p>
+                    <p className={styles.expTechDiscription}>{tags}</p>
                     <a
                       className={styles.linkButton}
                       href={source}

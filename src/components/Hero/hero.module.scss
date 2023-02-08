@@ -1,12 +1,13 @@
+@import '../../sass/utils/variables';
+
+
+
 .hero {
   position: relative;
   // height: 100vp;
   width: 100vw;
   border: 4px solid aqua;
   
-
- 
-
   video {
     // position: absolute;
 display: block;
@@ -37,10 +38,50 @@ position: relative;
 
 .content {
   position: absolute;
+      display: inline-block;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
     z-index: 20;
+    font-family: auto;
+    font-weight: 500;
+    
+text-align: center;
+  width: max-content;
+}
+
+.curlySpan {
+
+&:before {
+    content: "{";
+    font-size: 40px;
+    color: #ffc107;
+  }
+
+  &:after {
+    content: "}";
+    font-size: 40px;
+    color: #ffc107;
+        margin-left: 10px;
+  }
+}
+
+.equalSpan{
+  &:before {
+      content: "=>";
+      font-size: 30px;
+      color: #ffc107;
+      margin-right: 10px;
+    }
+}
+
+.heroDesc{
+  padding-left: 15px;
+  padding-right: 15px;
+      margin-top: 10px;
+  font-family: $primary-fontfamilly;
+  font-weight: $primary-fontwght;
+      font-size: $primary-fontSize;
 }

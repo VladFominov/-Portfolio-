@@ -1,0 +1,15 @@
+// $bg-color:
+// $accent-color: 
+// $text-color:
+$primary-fontfamilly:  'Roboto Slab';
+$primaryColor:  #FFFFFF;
+$secondColor: blue;
+$primary-fontwght: 400;
+$primary-fontSize: 15px;
+:export{
+    font-family: $primary-fontfamilly;
+    color: $primaryColor;
+    color: $secondColor;
+    font-weight: $primary-fontwght;
+    font-size:$primary-fontSize;
+}

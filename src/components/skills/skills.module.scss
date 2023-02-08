@@ -1,6 +1,13 @@
+@import '../../sass/utils/variables';
+
 .section {
     border: 2px solid brown;
-    padding-top: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.skillsTitle{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .skillsList{

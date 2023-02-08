@@ -1,0 +1,39 @@
+.contactsSection{
+    padding: 10px 15px 10px 15px;
+}
+
+.form{
+flex-direction: column;
+    display: flex;
+    gap: 5px;
+
+    .contactsInput{
+        border-radius: 10px;
+    }
+
+        .contactsTextarea{
+        border-radius: 10px;
+        }
+}
+
+.submitButton{
+    background-color: #ffc107;
+    
+        border: none;
+        color: darkblue;
+        max-width: 100px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 16px;
+}
+
+.contactTitle{
+    text-align: center;
+
+    .textColorize{
+        color: #ffc107;
+    }
+}

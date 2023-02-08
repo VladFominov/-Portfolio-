@@ -13,16 +13,25 @@ const projectsInfo = [
   {
     title: "Cocktails App",
     image: require("../../assets/images/cocktails.jpg"),
-    tags: ["JavaScript"],
-    discription: "this is a long dsc",
+    tags: [
+      "HTML/CSS, ",
+      "SASS, ",
+      "JavaScript, ",
+      "Axios, ",
+      "Node.js, ",
+      "Webpack, ",
+      "Parce",
+    ],
+    discription:
+      "The app, with a cocktails recipes and ingredients. All dynamic elements been done by javascript",
     source: "https://yulenyka.github.io/cocktails-project/",
     id: 1,
   },
   {
     title: "Wallet",
     image: require("../../assets/images/wallet.jpg"),
-    tags: ["ReactJs"],
-    discription: "this is a long dsc",
+    tags: ["HTML/CSS, ", "JavaScript, ", "React, ", "Redux, ", "Node.js, ", "Webpack"],
+    discription: "Last project we've done on React/Redux course. It's a Finance App which helps to keep track of expenses. A user can login/logout, get access according to auth, add, track and analize own expenses",
     id: 2,
   },
 ];

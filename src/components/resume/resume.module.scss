@@ -1,4 +1,24 @@
+@import '../../sass/utils/variables';
+
 .section {
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+        text-align: center;
     border: 2px solid  green;
+}
+
+.linkButton {
+    background-color: #ebebeb;
+
+    border: none;
+    color: darkblue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+
 }

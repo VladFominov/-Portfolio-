@@ -1,20 +1,11 @@
 import React from 'react'
+import Contacts from "../components/contacts/Contacts";
+
 
 const ContactsPage = () => {
   return (
     <div>
-      <form>
-        <label>
-          <input type="text" placeholder="first name"></input>
-        </label>
-        <label>
-          <input type="text" placeholder="last name"></input>
-        </label>
-        <label>
-          <input type="text" placeholder="first name"></input>
-        </label>
-      </form>
-      <button type="submit">Send</button>
+     <Contacts />
     </div>
   );
 }

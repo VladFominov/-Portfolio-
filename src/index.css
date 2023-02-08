@@ -1,13 +1,17 @@
 @import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Open+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@400;700;900&display=swap');
 
-* {
-  box-sizing: border-box;
+
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: sans-serif, 'Montserrat', sans-serif,'Open Sans','Roboto Slab', serif;
+  box-sizing: border-box;
   line-height: 1.5;
   margin: 0;
   background-color: #1F2833;
@@ -43,4 +47,8 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
 
