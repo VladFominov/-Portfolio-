@@ -15,7 +15,7 @@ function Skills() {
   return (
     <section className={styles.section}>
       <div className={globalStyles.container}>
-        <h2 className={styles.skillsTitle}>TECH STECK</h2>
+        <h2 className={styles.skillsTitle}>Tech Steck</h2>
         <ul className={styles.skillsList}>
           <IconContext.Provider
             value={{
@@ -26,7 +26,7 @@ function Skills() {
           >
             <li className={styles.skillsItems}>
               <AiFillHtml5 />
-              <p>HTML5</p>
+              <p className={styles.skillsText}>HTML5</p>
             </li>
           </IconContext.Provider>
 

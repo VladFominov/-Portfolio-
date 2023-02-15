@@ -14,18 +14,22 @@ const AppBar = () => {
           <div className={globalStyles.container}>
             <NavBarMovile />
             <nav className={styles.header}>
-              <Link to="/" className={styles.logo}>
-                <img src={image} alt="flag" />
-              </Link>
-              <NavLink to="/" className={setActive}>
-                Home
-              </NavLink>
-              <NavLink to="/projects" className={setActive}>
-                Projects
-              </NavLink>
-              <NavLink to="/contacts" className={setActive}>
-                Contacts
-              </NavLink>
+              <div className={styles.logoWrapper}>
+                <Link to="/" className={styles.logo}>
+                  <img src={image} alt="flag" width="100" />
+                </Link>
+              </div>
+              <div className={styles.navLinkWrapper}>
+                <NavLink to="/" className={setActive}>
+                  Home
+                </NavLink>
+                <NavLink to="/projects" className={setActive}>
+                  Projects
+                </NavLink>
+                <NavLink to="/contacts" className={setActive}>
+                  Contacts
+                </NavLink>
+              </div>
             </nav>
           </div>
         </header>

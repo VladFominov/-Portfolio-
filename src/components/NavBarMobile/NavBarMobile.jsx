@@ -10,6 +10,15 @@ const setActive = ({ isActive }) => (isActive ? styles.active : "");
 const NavBarMovile = () => {
   const [open, setOpen] = useState(false);
   let burgerRef = useRef();
+
+  useEffect(() => {
+    if (open) {
+       document.body.style.overflow = "hidden";
+     }
+     
+     return () => (document.body.style.overflow = "unset");
+   }, [open]);
+
   useEffect(() => {
     if (!open) return;
     let handler = (e) => {
@@ -26,6 +35,7 @@ const NavBarMovile = () => {
       className={styles.burger}
       size="40px"
       color="#ffc107"
+      aria-label="Перемикач мобильного меню"
       onClick={() => setOpen(!open)}
     />
   );
@@ -45,12 +55,12 @@ const NavBarMovile = () => {
       </Link>
       {open ? closeIcon : burgerIcon}
 
-      {open && (
-        <div ref={burgerRef} className={styles.navWrapper}>
+      {open ?(<div ref={burgerRef} className={styles.navWrapperIsOpen}>
           <NavLink
             to="/"
             className={setActive}
             color="#fff"
+            width="50px"
             onClick={() => closeMenuHandler()}
           >
             <span className={styles.li}>Home</span>
@@ -58,6 +68,7 @@ const NavBarMovile = () => {
           <NavLink
             to="/projects"
             className={setActive}
+            width="63px"
             onClick={() => closeMenuHandler()}
           >
             <span className={styles.li}>Projects</span>
@@ -65,12 +76,40 @@ const NavBarMovile = () => {
           <NavLink
             to="/contacts"
             className={setActive}
+            width="67px"
+            onClick={() => closeMenuHandler()}
+          >
+            <span className={styles.li}>Contacts</span>
+          </NavLink>
+        </div>) : (
+        <div ref={burgerRef} className={styles.navWrapper}>
+          <NavLink
+            to="/"
+            className={setActive}
+            color="#fff"
+            width="50px"
+            onClick={() => closeMenuHandler()}
+          >
+            <span className={styles.li}>Home</span>
+          </NavLink>
+          <NavLink
+            to="/projects"
+            className={setActive}
+            width="63px"
+            onClick={() => closeMenuHandler()}
+          >
+            <span className={styles.li}>Projects</span>
+          </NavLink>
+          <NavLink
+            to="/contacts"
+            className={setActive}
+            width="67px"
             onClick={() => closeMenuHandler()}
           >
             <span className={styles.li}>Contacts</span>
           </NavLink>
         </div>
-      )}
+      )} 
     </nav>
   );
 };

@@ -1,11 +1,15 @@
 .section {
-    border: 2px solid fuchsia;
-    background-color: #343a40;
-       
-        padding: 10px;
+      padding: 10px 15px;
         width: 100%;
-        padding-top: 10px;
+       
+        background-color: #c9dddd;
+        // @media screen and (min-width:768px) {
+        //   width: 768px;
+        //   background-color: #c9dddd;
+        
+        //   }
 }
+
 
 .footerList {
     display: flex;

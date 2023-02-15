@@ -1,17 +1,23 @@
 @import '../../sass/utils/variables';
 
 .section {
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px;
 display: flex;
     flex-direction: column;
     justify-content: center;
         text-align: center;
-    border: 2px solid  green;
+   
+}
+
+.resumeTitle{
+        margin-bottom: 15px;
+        font-weight: $title-fontwght;
+        color: $titleColor;
 }
 
 .linkButton {
-    background-color: #ebebeb;
-
+    display: inline-block;
+    background-color: #ffc107;
     border: none;
     color: darkblue;
     padding: 10px 20px;

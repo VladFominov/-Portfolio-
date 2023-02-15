@@ -1,11 +1,23 @@
 // $bg-color:
 // $accent-color: 
 // $text-color:
+
 $primary-fontfamilly:  'Roboto Slab';
-$primaryColor:  #FFFFFF;
+$primaryColor: #FFFFFF;
+
+$title-ff: 'Montserrat';
+ $title-fontwght: 800;
+ $titleColor: #e1ba62;
+
+$subtitleFontF: 'Open Sans';
+$subtitleFontW: 500px;
+
+
 $secondColor: blue;
-$primary-fontwght: 400;
-$primary-fontSize: 15px;
+$primary-fontwght: 400px;
+$primary-fontSize: 19px;
+          
+                                   
 :export{
     font-family: $primary-fontfamilly;
     color: $primaryColor;

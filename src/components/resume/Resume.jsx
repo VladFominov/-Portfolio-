@@ -7,10 +7,12 @@ function Resume() {
   return (
     <section section className={styles.section}>
       <div className={globalStyles.container}>
-        To get more information about me, please, check my CV
+        <h2 section className={styles.resumeTitle}>
+           Check my CV
+        </h2>
         <a
           className={styles.linkButton}
-          class="btn btn-primary"
+          // class="btn btn-primary"
           href={resume}
           role="button"
           download="Resume"

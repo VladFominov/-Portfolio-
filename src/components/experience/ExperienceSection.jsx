@@ -23,7 +23,7 @@ const ExperienceSection = () => {
                       src={image}
                       alt="appimage"
                       width="200px"
-                      height="106px"
+                      // height="106px"
                     />
                     <p className={styles.expDiscription}>{discription}</p>
                     <p className={styles.expTechDiscription}>{tags}</p>

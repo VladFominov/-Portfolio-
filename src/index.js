@@ -8,12 +8,12 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter  >
       <App />
     </BrowserRouter>
   </React.StrictMode>
 );
-// basename={process.env.PUBLIC_URL}
+// basename="/-portfolio-/"
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
