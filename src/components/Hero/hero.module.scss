@@ -50,6 +50,10 @@ position: relative;
     
 text-align: center;
 width: 100%;
+
+@media screen and (min-width: 1200px){
+  font-size: 40px;
+}
 }
 
 .curlySpan {
