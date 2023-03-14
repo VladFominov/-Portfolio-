@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './resume.module.scss'
+import styles from './_resume.module.scss'
 import resume from "../../assets/images/Vlad_Fominov_junior_frontend.pdf";
 import globalStyles from "../styles.module.scss";
 

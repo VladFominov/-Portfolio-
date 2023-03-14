@@ -87,6 +87,11 @@ width: 100%;
   font-family: $primary-fontfamilly;
   font-weight: $primary-fontwght;
       font-size: $primary-fontSize;
+
+      @media screen and (min-width: 1200px) {
+          font-size: 25px;
+          padding: 10px 0;
+        }
 }
 
 .descWrap{

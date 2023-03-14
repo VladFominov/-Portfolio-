@@ -1,7 +1,7 @@
 import React from 'react';
 
 import globalStyles from '../styles.module.scss'
-import styles from './hero.module.scss'
+import styles from './_hero.module.scss'
 import bgHeroVideo from '../../assets/video/video.mp4'
 const Hero = () => {
   return (

@@ -23,15 +23,24 @@ const projectsInfo = [
       "Parce",
     ],
     discription:
-      "The app, with a cocktails recipes and ingredients. All dynamic elements been done by javascript",
+      "The app, with a cocktails recipes and ingredients. I've implemented pagination for all sections of this app. The app has both dark  and light mode. All dynamic elements been done by javascript",
     source: "https://yulenyka.github.io/cocktails-project/",
     id: 1,
   },
   {
     title: "Wallet",
     image: require("../../assets/images/wallet.jpg"),
-    tags: ["HTML/CSS, ", "JavaScript, ", "React, ", "Redux, ", "Node.js, ", "Webpack"],
-    discription: "Last project we've done on React/Redux course. It's a Finance App which helps to keep track of expenses. A user can login/logout, get access according to auth, add, track and analize own expenses",
+    tags: [
+      "HTML/CSS, ",
+      "JavaScript, ",
+      "React, ",
+      "Redux, ",
+      "Node.js, ",
+      "Webpack",
+    ],
+    discription:
+      "Last project we've done on React/Redux course. It's a Finance App which helps to keep track of expenses. A user can login/logout, get access according to auth, add, track and analize own expenses",
+    source: "https://andrii-petlovanyi.github.io/walletX/login",
     id: 2,
   },
 ];

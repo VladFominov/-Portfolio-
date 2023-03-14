@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 import { CgMenuRound, CgCloseO } from "react-icons/cg";
 import { Link, NavLink } from "react-router-dom";
-import styles from "./mobile.module.scss";
+import styles from "./_mobile.module.scss";
 import image from "../../assets/images/flag.png";
 
 const setActive = ({ isActive }) => (isActive ? styles.active : "");

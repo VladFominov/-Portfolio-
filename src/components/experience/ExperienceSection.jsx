@@ -1,5 +1,5 @@
 // import React, { useState } from 'react'
-import styles from './experience.module.scss'
+import styles from './_experience.module.scss'
 import globalStyles from "../styles.module.scss";
 import projectsInfo from "./projectsInfo";
 

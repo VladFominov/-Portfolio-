@@ -1,11 +1,14 @@
 @import '../../sass/utils/variables';
 
 .section {
-     padding: 10px 15px;
+     padding: 10px 0;
 }
 
 .flexWrapper {
-   
+@media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 5px;
+    }
 }
 
 .expTitle{
@@ -26,6 +29,11 @@ margin-bottom: 10px;
     padding-top: 5px;
         padding-bottom: 5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+@media screen and (min-width: 1200px) {
+       width: 400px;
+       padding: 10px;
+    }
 }
 
 .linkButton{
