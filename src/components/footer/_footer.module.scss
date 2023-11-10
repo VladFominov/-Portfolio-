@@ -3,56 +3,55 @@
   width: 100%;
   background-color: #c9dddd;
 
-@media screen and (min-width: 768px) {
-background-color: #1F2833;
-padding: 0;
-  } 
+  @media screen and (min-width: 768px) {
+    background-color: #1f2833;
+    padding: 0;
+  }
 }
 
-.footerWrapper{
-@media screen and (min-width: 768px) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+.footerWrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-      background-color: #343a40;
-      padding: 15px 10px;
-    }
+    background-color: #343a40;
+    border-radius: 10%;
+    padding: 15px 10px;
+  }
 }
 
-.footerContacts{
+.footerContacts {
   @media screen and (max-width: 768px) {
     display: none;
   }
 
-    @media screen and (min-width: 768px) {
-      display: inline-block;
-      :not(:last-child) {
-          margin-bottom: 20px;
-        }
-     
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    :not(:last-child) {
+      margin-bottom: 20px;
     }
+  }
 
-        .contactsTitle{
-          color:#ffc107;
-        }
-
-                .contactsLink{
-&:hover,
-  &:focus {
+  .contactsTitle {
     color: #ffc107;
   }
-                }
+
+  .contactsLink {
+    &:hover,
+    &:focus {
+      color: #ffc107;
+    }
+  }
 }
 
 .footerList {
-    display: flex;
-      justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   @media screen and (min-width: 768px) {
     display: block;
-      :not(:last-child) {
-          margin-bottom: 20px;
-        }
-      }
-
+    :not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
 }

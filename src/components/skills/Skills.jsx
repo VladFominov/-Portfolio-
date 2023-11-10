@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { IconContext } from "react-icons";
 import styles from "./skills.module.scss";
 import globalStyles from "../styles.module.scss";
@@ -9,6 +9,7 @@ import {
   DiSass,
   DiJavascript1,
 } from "react-icons/di";
+import { SiNextdotjs, SiTypescript, SiMongodb } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 
 function Skills() {
@@ -92,6 +93,37 @@ function Skills() {
             <li className={styles.skillsItems}>
               <DiNodejs />
               <p>NODE.JS</p>
+            </li>
+          </IconContext.Provider>
+          <IconContext.Provider
+            value={{
+              size: "2em",
+            }}
+          >
+            <li className={styles.skillsItems}>
+              <SiNextdotjs />
+              <p>NEXT.JS</p>
+            </li>
+          </IconContext.Provider>
+          <IconContext.Provider
+            value={{
+              size: "2em",
+            }}
+          >
+            <li className={styles.skillsItems}>
+              <SiTypescript />
+              <p>TypeScript</p>
+            </li>
+          </IconContext.Provider>
+          <IconContext.Provider
+            value={{
+              size: "2em",
+              color: "green",
+            }}
+          >
+            <li className={styles.skillsItems}>
+              <SiMongodb />
+              <p>MongoDB </p>
             </li>
           </IconContext.Provider>
         </ul>
